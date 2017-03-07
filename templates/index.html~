@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<style>
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+}
+
+h3 {
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+
+<html lang="en">
+ 
+<head>
+    <title>Stock Behaviour</title>
+ 
+ 
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+ 
+    <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+ 
+ 
+</head>
+ 
+<body>
+ 
+
+    <div class="container">
+        <div class="header">
+            <h1 class="text-muted">Stock Behaviour</h3>
+        </div>
+ 
+    <div class="jumbotron">
+      <form action="ticker_submit" method="post">
+	Stock Abbreviation (e.g. "AAPL"): <input type="text" name="ticker_name"><br>
+    Closing Price :        <input type="checkbox" name="cp" value="cp"><br>
+    Closing Adj. Price :   <input type="checkbox" name="cap" value = "cap"><br>
+    Opening Price :        <input type="checkbox" name="op" value="op"><br>
+    Opening Adj. Price :    <input type="checkbox" name="oap" value  = "oap"><br>
+      <input type="submit" value="Submit">
+      </form>
+    <footer class="footer">
+      <p>&copy; Fokas 2017</p>
+    </footer>
+ 
+    </div>
+</body>
+ 
+</html>
